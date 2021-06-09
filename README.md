@@ -87,6 +87,9 @@ Ref: https://github.com/othneildrew/Best-README-Template/edit/master/README.md
 
 Use the Arduino board to communicate with the device through RS-232 and output the device responses to the human-machine interface (HMI).
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
+
 
 # Brief description
 
