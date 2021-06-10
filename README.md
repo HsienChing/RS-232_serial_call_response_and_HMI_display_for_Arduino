@@ -100,18 +100,16 @@ Sketch name: RS-232 serial call response
 Suggested board: Arduino MEGA 2560 Rev3
 
 Purpose: 
-<ol>
-  <li>Send command to the external device through RS-232.</li>
-  <li>Get responses from the device through RS-232.</li>
-  <li>Send the device responses to the HMI through Serial1.</li>
-  <li>Arduino can monitor the device responses from the serial monitor.</li>
-</ol>
+1. Send command to the external device through RS-232.
+1. Get responses from the device through RS-232.
+1. Send the device responses to the HMI through Serial1.
+1. Arduino can monitor the device responses from the serial monitor.
 
-Suggested system setup: 
-<ol>
-  <li>A "RS-232 to TTL module" is used to convert the RS-232 signal because Arduino MEGA 2560 Rev3 does not support RS-232 directly.</li>
-  <li>A HMI with UART interface is used to show the device responses through the Serial1 channel of the Arduino.</li>
-</ol>
+
+Suggested hardware setup: 
+1. A "RS-232 to TTL module" is used to convert the RS-232 signal because Arduino MEGA 2560 Rev3 does not support RS-232 directly.
+1. A HMI with UART interface is used to show the device responses through the Serial1 channel of the Arduino.
+
 
 <!-- GETTING STARTED -->
 <!--
