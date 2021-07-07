@@ -59,7 +59,7 @@ void setup() {
 
 void loop() {
   establishContact1();  // Send a byte to establish contact until receiver responds
-  if (mySerial.available() > 0 & mySerial.find('#') ) {
+  if (mySerial.available() > 0 && mySerial.find('#') ) {
     
     str = mySerial.readStringUntil('\r'); // Get incoming string
     Serial.print("Incoming string for RVA:");
@@ -89,7 +89,7 @@ void loop() {
   }
 
   establishContact2();  // Send a byte to establish contact until receiver responds
-  if (mySerial.available() > 0 & mySerial.find('(') ) {
+  if (mySerial.available() > 0 && mySerial.find('(') ) {
     
     str = mySerial.readStringUntil('\r'); // Get incoming string
     Serial.print("Incoming string for Q1:");
