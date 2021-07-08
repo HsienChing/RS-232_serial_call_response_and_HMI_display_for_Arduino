@@ -86,7 +86,7 @@ Ref: https://github.com/othneildrew/Best-README-Template/edit/master/README.md
 # About the project
 
 The Arduino board is used to communicate with the external device through RS-232. 
-The device responses are resolved by the Arduino and output to the human-machine interface (HMI).
+The device responses are resolved by the Arduino and outputted to the human-machine interface (HMI).
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -95,9 +95,8 @@ The device responses are resolved by the Arduino and output to the human-machine
 
 # Brief description
 
-Sketch name: RS-232 serial call response
-  
-Suggested board: Arduino MEGA 2560 Rev3
+Suggested board: 
+1. Arduino MEGA 2560 Rev3
 
 Purpose: 
 1. Send command to the external device through RS-232.
