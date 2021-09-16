@@ -13,6 +13,10 @@
   Date: 4 June 2021
   Author: Dr. Hsien-Ching Chung
   ORCID: https://orcid.org/0000-0001-9364-8858
+  
+  Project Link: https://github.com/HsienChing/RS-232_serial_call_response_and_HMI_display_for_Arduino
+  License: MIT License
+  Copyright (c) 2021 Hsien-Ching Chung
 */
 
 #include <SoftwareSerial.h>
