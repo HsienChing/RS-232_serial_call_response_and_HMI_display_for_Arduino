@@ -83,6 +83,8 @@ Ref: https://github.com/othneildrew/Best-README-Template/edit/master/README.md
 
 
 <!-- ABOUT THE PROJECT -->
+# RS-232 serial call response and HMI display for Arduino
+
 # About the project
 
 The Arduino board is used to communicate with the external device through RS-232. 
